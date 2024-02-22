@@ -1,4 +1,4 @@
-# Welcome to Sharma React Ecommerce Website
+# Welcome to Sharma's React Ecommerce Website
 
 ## Follow the 3 Steps and you are good to go. 
 
