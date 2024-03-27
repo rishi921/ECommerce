@@ -48,10 +48,7 @@ const Footer = () => {
                   <FaInstagram className="icons" />
                 </div>
                 <div>
-                  <a
-                    href="https://www.youtube.com"
-                    target="_blank"
-                  >
+                  <a href="https://www.youtube.com" target="_blank">
                     <FaYoutube className="icons" />
                   </a>
                 </div>
@@ -59,7 +56,6 @@ const Footer = () => {
             </div>
             <div className="footer-contact">
               <h3>Call Us</h3>
-              {/* <a href="tel: 1234432187">+91 12345678978</a> */}
               <h3>+91 12345678978</h3>
             </div>
           </div>
@@ -68,7 +64,7 @@ const Footer = () => {
             <hr />
             <div className="container grid grid-two-column ">
               <p>
-                @{new Date().getFullYear()} ThapaTechnical. All Rights Reserved
+                @{new Date().getFullYear()} SharmaTechnical. All Rights Reserved
               </p>
               <div>
                 <p>PRIVACY POLICY</p>

@@ -1,8 +1,8 @@
-import React from "react";
 import styled from "styled-components";
 import FilterSection from "./components/FilterSection";
 import ProductList from "./components/ProductList";
 import Sort from "./components/Sort";
+import { useFilterContext } from "./context/filter_context";
 
 const Products = () => {
   return (
@@ -11,11 +11,12 @@ const Products = () => {
         <div>
           <FilterSection />
         </div>
+
         <section className="product-view--sort">
           <div className="sort-filter">
             <Sort />
           </div>
-          <div className="main-products">
+          <div className="main-product">
             <ProductList />
           </div>
         </section>
@@ -23,7 +24,6 @@ const Products = () => {
     </Wrapper>
   );
 };
-
 
 const Wrapper = styled.section`
   .grid-filter-column {
