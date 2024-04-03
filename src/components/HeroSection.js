@@ -21,7 +21,7 @@ const HeroSection = ({ myData }) => {
               <Button>show now</Button>
             </NavLink>
           </div>
-          {/* our homepage image  */}
+          {/* our Homepage image  */}
           <div className="hero-section-image">
             <figure>
               <img
