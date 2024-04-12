@@ -21,12 +21,12 @@ const HeroSection = ({ myData }) => {
               <Button>show now</Button>
             </NavLink>
           </div>
-          {/* our Homepage image  */}
+          {/* our homepage image  */}
           <div className="hero-section-image">
             <figure>
               <img
                 src="images/hero.jpg"
-                alt="hero-section"
+                alt="Hero section background"
                 className="img-style"
               />
             </figure>
